@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.grid {
+  border-collapse: collapse; /* Collapse borders into single lines */
+  width: auto; /* Allow the table to adjust its width based on content */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.grid th, .grid td {
+  border: 1px solid black; /* Add borders to cells */
+  padding: 8px; /* Add padding to cells */
+  text-align: center; /* Center the text within cells */
+}
